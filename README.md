@@ -12,8 +12,8 @@ $ mv check/Debian/check /usr/local/bin/  # Debian
 $ check "www.travismclarke.com" --port 443
 ```
 #### Homebrew
-Comming soon!
-#### apt
+> Comming soon!
+#### Apt
 Comming soon!
 
 ### Usage
