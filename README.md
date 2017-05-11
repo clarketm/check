@@ -1,5 +1,5 @@
 # check
-Generate JWT Token using Unix command line tools
+Check if a TCP/UDP port is open on a host(s) using UNIX command line tools.
 
 ### Usage
 ```bash
