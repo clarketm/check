@@ -1,6 +1,21 @@
 # check
 Check if a TCP/UDP port is open on a host(s) using UNIX command line tools.
 
+### Installation
+#### Source
+```bash
+$ git clone "https://github.com/clarketm/check.git"
+
+$ mv check/Mac/check /usr/local/bin/     # Mac
+$ mv check/Debian/check /usr/local/bin/  # Debian
+
+$ check "www.travismclarke.com" --port 443
+```
+#### Homebrew
+Comming soon!
+#### apt
+Comming soon!
+
 ### Usage
 ```bash
 $ check --help
