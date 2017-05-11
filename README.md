@@ -14,7 +14,7 @@ $ check "www.travismclarke.com" --port 443
 #### Homebrew
 > Comming soon!
 #### Apt
-Comming soon!
+> Comming soon!
 
 ### Usage
 ```bash
