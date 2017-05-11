@@ -10,7 +10,7 @@ NAME:
 
 
 SYNOPSIS:
-	 check [ opts... ] hostname...
+	 check [opts...] [hostname...]
 
 
 OPTIONS:
