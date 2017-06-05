@@ -31,9 +31,9 @@ SYNOPSIS:
 OPTIONS:
 	 -h, --help                             	 Print options and usage information.
 	 -n, --noexit                           	 Continue processing hostnames on failure.
-	 -p, --port port       	 Port number (default: 80).
+	 -p, --port port       	 			 Port number (default: 80).
 	 -s, --silent                           	 Suppress terminal output.
-	 -t, --timeout seconds 	 Timeout for the connection (default: 5).
+	 -t, --timeout seconds 	 			 Timeout for the connection (default: 5).
 	 -v, --version                          	 Print current version number.
 
 
