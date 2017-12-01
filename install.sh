@@ -8,7 +8,8 @@ SCRIPT='check'
 
 DARWIN='darwin'
 LINUX='linux'
-X86_64='x86_64'
+
+ARCH_64='amd64'
 
 BUILD_DIR=
 
@@ -30,7 +31,7 @@ echo "$OS operating system detected"
 # Check machine architecture
 case "$ARCH" in
   [Xx]86*|[Xx]86[-_]64*)
-    BUILD_DIR="$BUILD_DIR-$X86_64"
+    BUILD_DIR="$BUILD_DIR-$ARCH_64"
   ;;
   *)
     echo "unknown machine architecture: $ARCH" >&2
@@ -54,9 +55,9 @@ copy_script () {
 if ! type "$SCRIPT" > /dev/null 2>&1; then
   copy_script
 else
-  read -r -n1 -p "$SCRIPT already exists on your PATH. Do you still want to install? [N/y] "
+  read -r -p "$SCRIPT already exists on your PATH. Do you still want to install? [N/y] " REPLY
   echo
-  if [ "$REPLY" == 'y' ] || [ "$REPLY" == 'Y' ]; then
+  if [ "$REPLY" = 'y' ] || [ "$REPLY" = 'Y' ]; then
     copy_script
   else
     echo "setup aborted" >&2

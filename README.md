@@ -6,7 +6,7 @@ Check if a TCP/UDP port is open on a host(s) using UNIX command line tools.
 ```bash
 $ git clone "https://github.com/clarketm/check.git"
 
-$ cd check && sh install.sh
+$ cd check && sudo sh install.sh
 ```
 #### Homebrew
 > Comming soon!
